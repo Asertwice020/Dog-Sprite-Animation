@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sprite Animation In JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main style="display: flex; flex-direction: row; gap: 2rem;">
+    <!-- To Change Animation -->
+    <select name="animation-list" id="animation-list">
+      <option value="stand">Stand</option>
+      <option value="jump">Jump</option>
+      <option value="fall">Fall</option>
+      <option value="run">Run</option>
+      <option value="dizzy">Dizzy</option>
+      <option value="sit">Sit</option>
+      <option value="roll">Roll</option>
+      <option value="bite">Bite</option>
+      <option value="KO">Knock Out</option>
+      <option value="get hit">Get Hit</option>
+    </select>
+
+    <!-- To Change Speed -->
+     <div>
+       <input type="range" name="animation-speed" id="animation-speed" max="30" value="5">
+       <p style="color: white; display: inline-block;" id="animation-speed-in-number"></p>
+     </div>
+  </main>
+  <canvas id="canvas"></canvas>
+  <footer style="color: white;">I followed Franks Laboratory Channel Video And Code along with it. I am just going to start it. now!</footer>
+  <script src="logic.js"></script>
+</body>
+</html>

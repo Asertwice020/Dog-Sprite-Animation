@@ -1,0 +1,5 @@
+I learned the drawImage() method in this project to make it, but it takes many iterations to understand it then master it. I followed a few parts from the video like: how to control the frames: staggerFrames, and use of drawImage() method. Then a simple tactic that explains how we perform animation using that sprite sheet. I also had to know that drawImage() method has 3 versions according to how you want to use it. I also have some basic curiosity about how the different numbers of frames will align, and initially thought about switch keyword, which is a good approach. I intentionally did not complete the video because after those parts, he is talking about more complex and mathematical approaches which look good but are hard to understand. He also changes the stagger thing completely. In the end, he is making all the things look too good and easy too, but I just watched that part and did not implement it, because I am not going to be in a rush. I need to be patient.
+
+After all, I start my journey in game dev.
+::- EPISODE 1 ::-
+AUTHOR: "SUMIT SARASWAT"

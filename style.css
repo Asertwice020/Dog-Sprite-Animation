@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #0e001f;
+}
+
+#canvas {
+  width: 600px;
+  height: 600px;
+  background-color: crimson;
+  border: 2px solid #280057;
+}
